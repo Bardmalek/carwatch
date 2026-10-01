@@ -9,7 +9,7 @@ Detection → tracking → camera-motion cancellation → speed & acceleration w
 ![license](https://img.shields.io/badge/license-AGPL--3.0-blue)
 ![detector](https://img.shields.io/badge/detector-YOLO26-111F68)
 ![tracker](https://img.shields.io/badge/tracker-BoT--SORT-orange)
-![tests](https://img.shields.io/badge/tests-39%20passing-brightgreen)
+[![CI](https://github.com/Bardmalek/carwatch/actions/workflows/ci.yml/badge.svg)](https://github.com/Bardmalek/carwatch/actions/workflows/ci.yml)
 ![status](https://img.shields.io/badge/status-research%20prototype-yellow)
 ![privacy](https://img.shields.io/badge/privacy-local%20only-success)
 

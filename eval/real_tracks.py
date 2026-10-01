@@ -13,7 +13,6 @@ import numpy as np
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT)); sys.path.insert(0, str(ROOT / "eval"))
 import carwatch                    # noqa: E402
-from visdrone_mot import load_gt   # noqa: E402
 
 CACHE = ROOT / "eval" / "cache" / "real_tracks.pkl"
 FPS = 30.0      # VisDrone-VID is ~30 fps; assumed, not read from the files

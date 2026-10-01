@@ -9,7 +9,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import carwatch                      # noqa: E402
-from make_synthetic import SCENARIOS, shake   # noqa: E402
+from make_synthetic import SCENARIOS   # noqa: E402
 
 CAR_PX = 80.0     # scale used by Vehicle (box long side in px)
 
