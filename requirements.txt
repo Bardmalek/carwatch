@@ -1,0 +1,8 @@
+# Runtime
+ultralytics>=8.4
+lap
+opencv-python
+numpy
+scipy
+scikit-learn
+joblib

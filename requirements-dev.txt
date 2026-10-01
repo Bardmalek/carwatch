@@ -1,0 +1,3 @@
+-r requirements.txt
+pytest
+motmetrics      # tracker evaluation (eval/visdrone_mot.py)

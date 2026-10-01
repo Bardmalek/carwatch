@@ -1,0 +1,30 @@
+# environments / caches
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+
+# data, weights and models (large, or with their own licences)
+datasets/
+*.pt
+*.onnx
+*.mlpackage
+*.joblib
+runs/
+
+# run outputs: footage, evidence, personal speed history
+*.mp4
+evidence/
+carwatch_events_*.csv
+carwatch_tracks_*.csv
+carwatch_report_*.html
+speed_history.csv
+*.log
+eval/cache/
+scene.json
+
+# private / not part of this repo
+CLAUDE.md
+tracker.py
+dronewatch.py
+dronewatch_log_*.csv
